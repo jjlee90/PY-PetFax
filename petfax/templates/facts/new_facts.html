@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>New Facts</h1>
+    <div class="fact">
+      <form action="" class="">
+        <p>
+          If you have some facts you'd like to share, fill out the form below!
+        </p>
+        <label for="name">
+          <p>Name</p>
+          <input type="text" name="name" id="name" />
+        </label>
+        <label for="fact">
+          <p>Fact</p>
+          <textarea
+            type="text"
+            name="fact"
+            id="fact"
+            rows="20"
+            cols="70"
+          ></textarea>
+        </label>
+
+        <button>Submit the Fact</button>
+      </form>
+      <a href="/pets">Go Back</a>
+    </div>
+  </body>
+</html>

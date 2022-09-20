@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: aqua;
+  text-align: center;
+}
+
+img {
+  width: 80%;
+  border-radius: 10%;
+}
+.container {
+  display: flex;
+}
+.card {
+  text-align: center;
+}
+.pets {
+  display: flex;
+  justify-content: center;
+}
+
+/* facts */
+.fact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fact-img {
+  width: 50%;
+}
+button,
+input,
+textarea {
+  padding: 1%;
+  width: 80%;
+  margin-bottom: 1em;
+}
+
+button {
+  background-color: cornflowerblue;
+  border-radius: 5%;
+}
+
+button:hover {
+  cursor: pointer;
+}
